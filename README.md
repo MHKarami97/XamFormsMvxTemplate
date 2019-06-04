@@ -6,6 +6,5 @@ Update of Xamarin Forms 3 with MvvmCross 6 Solution Template visual studio plugi
 refrence plugin:
 https://marketplace.visualstudio.com/items?itemName=PaulDatsiuk.XamarinFormswithMvvmCross5SolutionTemplate
 
-![project](http://s3.picofile.com/file/8362624184/Annotation_2019_06_04_173715_min.jpg)
-
-![create](http://s4.picofile.com/file/8362624176/Annotation_2019_06_04_173746_min.jpg)
+<img src="http://s3.picofile.com/file/8362624184/Annotation_2019_06_04_173715_min.jpg" width="60">
+<img src="http://s4.picofile.com/file/8362624176/Annotation_2019_06_04_173746_min.jpg" width="60">
