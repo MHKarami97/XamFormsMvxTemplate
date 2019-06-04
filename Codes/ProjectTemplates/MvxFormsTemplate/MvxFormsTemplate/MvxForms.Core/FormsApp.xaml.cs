@@ -9,6 +9,7 @@ namespace $safeprojectname$
         public FormsApp()
         {
             InitializeComponent();
+	    XF.Material.Forms.Material.Init(this);
         }
     }
 }

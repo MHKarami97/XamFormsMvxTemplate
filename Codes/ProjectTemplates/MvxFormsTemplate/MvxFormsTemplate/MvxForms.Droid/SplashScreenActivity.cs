@@ -47,10 +47,10 @@ namespace SmartHome.Droid
 
         protected override Task RunAppStartAsync(Bundle bundle)
         {
-            AppCenter.Start(
-                "a3a12744-35f7-4516-b604-c65d47a92b19",
-                typeof(Analytics),
-                typeof(Crashes));
+            //AppCenter.Start(
+            //    "",
+            //    typeof(Analytics),
+            //    typeof(Crashes));
 
             StartActivity(typeof(FormsApplicationActivity));
             return Task.CompletedTask;

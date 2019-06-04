@@ -30,8 +30,10 @@ namespace SmartHome.iOS
             Xamarin.Calabash.Start();
 #endif
 
-            AppCenter.Start("18907712-7d48-4515-b71b-f753f9e49de2",
-                typeof(Analytics), typeof(Crashes));
+            //AppCenter.Start("",
+            //    typeof(Analytics), typeof(Crashes));
+
+	    FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
 
             XF.Material.iOS.Material.Init();
 

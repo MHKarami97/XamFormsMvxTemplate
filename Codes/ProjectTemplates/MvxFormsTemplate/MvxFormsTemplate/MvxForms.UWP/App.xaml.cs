@@ -47,7 +47,7 @@ namespace SmartHome.UWP
 
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
 
-            AppCenter.Start("87840556-1cbe-42e9-9091-68200e5c5adc", typeof(Analytics));
+            //AppCenter.Start("", typeof(Analytics));
 
             base.OnLaunched(e);
         }

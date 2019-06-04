@@ -19,8 +19,10 @@ namespace SmartHome.Droid
             ToolbarResource = Resource.Layout.Toolbar;
             TabLayoutResource = Resource.Layout.Tabbar;
 
-            AppCenter.Start("a3a12744-35f7-4516-b604-c65d47a92b19",
-                typeof(Analytics), typeof(Crashes));
+            //AppCenter.Start("",
+            //    typeof(Analytics), typeof(Crashes));
+
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
 
             XF.Material.Droid.Material.Init(this, bundle);
 
