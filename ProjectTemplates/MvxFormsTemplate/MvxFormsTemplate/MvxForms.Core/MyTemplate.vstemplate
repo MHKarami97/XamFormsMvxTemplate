@@ -1,0 +1,66 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MvxForms.Core</Name>
+    <Description>Core project with shared logic</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MvxForms.Core</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="MvxForms.Core.csproj" File="MvxForms.Core.csproj" ReplaceParameters="true">
+      <Folder Name="Behaviors" TargetFolderName="Behaviors">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BehaviorBase.cs">BehaviorBase.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EventToCommandBehavior.cs">EventToCommandBehavior.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Converters" TargetFolderName="Converters">
+        <ProjectItem ReplaceParameters="true" TargetFileName="NegateBooleanConverter.cs">NegateBooleanConverter.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Helpers" TargetFolderName="Helpers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="TranslateExtension.cs">TranslateExtension.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Pages" TargetFolderName="Pages">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.xaml">MasterPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.xaml.cs">MasterPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RootPage.xaml">RootPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RootPage.xaml.cs">RootPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondPage.xaml">SecondPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondPage.xaml.cs">SecondPage.xaml.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.de.resx">AppResources.de.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.en-US.resx">AppResources.en-US.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.resx">AppResources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.Designer.cs">AppResources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.ru.resx">AppResources.ru.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppResources.uk.resx">AppResources.uk.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TranslateExtension.cs">TranslateExtension.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppSettings.cs">AppSettings.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IAppSettings.cs">IAppSettings.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILocalizeService.cs">ILocalizeService.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainViewModel.cs">MainViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterViewModel.cs">MasterViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RootViewModel.cs">RootViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondViewModel.cs">SecondViewModel.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DebugTrace.cs">DebugTrace.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FodyWeavers.xml">FodyWeavers.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormsApp.xaml">FormsApp.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormsApp.xaml.cs">FormsApp.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MvxApp.cs">MvxApp.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

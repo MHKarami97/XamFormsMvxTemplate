@@ -1,0 +1,35 @@
+{
+    "manifestVersion": "1.1",
+    "info": {
+        "id": "VSIXProject.Paul Datsiuk.2e7a3a36-865f-46fb-b859-187c3c6fb9b1,version=4.1",
+        "manifestType": "Extension"
+    },
+    "packages": [{
+        "id": "Component.VSIXProject.Paul Datsiuk.2e7a3a36-865f-46fb-b859-187c3c6fb9b1",
+        "version": "4.1",
+        "type": "Component",
+        "extension": true,
+        "dependencies": {
+            "VSIXProject.Paul Datsiuk.2e7a3a36-865f-46fb-b859-187c3c6fb9b1": "4.1",
+            "Microsoft.VisualStudio.Component.CoreEditor": "[15.0.26208.0,)"
+        },
+        "localizedResources": [{
+            "language": "en-US",
+            "title": "Xamarin Forms 3 with MvvmCross 6 Solution Template",
+            "description": "Solution template containing the needed Core, iOS, Android and UWP projects for Xamarin.Forms 3.3 projects. The solution offers integration with the MvvmCross 6.2 framework. For easier testing purposes, the solution also includes a UnitTest project and a UITest project."
+        }]
+    }, {
+        "id": "VSIXProject.Paul Datsiuk.2e7a3a36-865f-46fb-b859-187c3c6fb9b1",
+        "version": "4.1",
+        "type": "Vsix",
+        "payloads": [{
+            "fileName": "VSIXProject.vsix",
+            "size": 380920
+        }],
+        "vsixId": "VSIXProject.Paul Datsiuk.2e7a3a36-865f-46fb-b859-187c3c6fb9b1",
+        "extensionDir": "[installdir]\\Common7\\IDE\\Extensions\\3npvjzzt.mpd",
+        "installSizes": {
+            "targetDrive": 1675251
+        }
+    }]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mvx:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+                       x:Class="$safeprojectname$.Pages.MasterPage"
+                       x:Name="ThePage"
+                       Title="Drawer here"
+                       Icon="ic_menu_white.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Horizontal"
+                     CompressedLayout.IsHeadless="true"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand"
+                     Spacing="0">
+                <Label Text="Menu items"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</mvx:MvxContentPage>
